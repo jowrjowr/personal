@@ -1,0 +1,4 @@
+f(x) = m*x + b; fit f(x) 'plot' using 1:2 via m,b; plot "plot" using 1:(($2 - b)/$1) notitle with points, "plot" using 1:(($2 - b)/$1) smooth csplines, 3.43
+
+http://www.ntp.org/ntpfaq/NTP-s-sw-clocks-quality.htm
+http://support.ntp.org/bin/view/Support/HowToCalibrateSystemClockUsingNTP
