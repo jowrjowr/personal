@@ -1,0 +1,3 @@
+###
+
+This is an updated and refactored perl fastcgi init system that supports things like 'not running as root', 'logging'...
